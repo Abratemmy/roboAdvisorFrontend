@@ -1,0 +1,424 @@
+.LandingPageContainer{
+    width: 100%;
+    background:  var(--backgroundColor);
+    overflow: hidden;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 100px 0px 120px 0px;
+    color: #fff;
+    .wrapper{
+        display: flex;
+        width: 100%;
+        align-items: flex-start;
+        justify-content: center;
+        .leftSide{
+            flex: 1;
+            position: relative;
+            .bgImage{
+                position: absolute;
+                left: -80%;
+                top: -40%;
+                transform: rotate(120deg);
+                opacity: 0.4;
+                // z-index: -1;
+                img{
+                    width: 80%;
+                    height: auto;
+                }
+            }
+            p{
+                padding: 15px 0px;
+                font-family: var(--textFamily);
+                font-size: 14px;
+            }
+            .last{
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                width: 100%;
+                .image{
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    img{
+                        width: 40%;
+                    }
+                    .text{
+                        color: #fff;
+                        font-family: var(--textFamily);
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+        .rightSide{
+            flex: 1;
+            position: relative;
+            .card2{
+                position: absolute;
+                right: -25%;
+                width: 300px;   
+                transform: rotate(120deg);                                    
+            }
+            .top{
+                width: 50%;
+                img{
+                    width: 100%;
+                    transform: rotate(25deg);
+                }  
+            }
+            .phone{
+                position: absolute;
+                top: -90px;
+                left: 40%;
+                z-index: 2;
+                img{
+                    width: 100%;
+                }
+            }
+            .card3{
+                position: relative;
+                top: 210px;
+                transform: rotate(45deg);
+                img{
+                    width: 50%;
+                }
+            }
+            .card4{
+                position: absolute;
+                right: 10px;
+                bottom: -100px;
+                z-index: 10;
+                width: 50%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 1115px) {
+        .wrapper{
+            .leftSide{
+                .title{
+                    font-size: 47px;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 992px) {
+        .wrapper{
+            .leftSide{
+                .title{
+                    font-size: 43px;
+                    width: 100%;
+                    justify-content: flex-start;
+                }
+                .last{
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+            .rightSide{
+                .top{
+                    width: 60%;
+                }
+                .card2{
+                    width: 200px;                                  
+                }
+                .phone{
+                    top: -40px;
+                }
+                .card4{
+                    width: 70%;
+                }
+                .card3{
+                    width: 100%;
+                    img{
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 850px) {
+        .wrapper{
+            flex-direction: column;
+            gap: 80px;
+            .leftSide{
+                .title{
+                    font-size: xx-large;
+                }
+            }
+            .rightSide{
+                .card3{
+                    display: none
+                }
+                .phone{
+                    position: relative;
+                    top: -160px;
+                    left: 0;
+                }
+                .card2{
+                    position: absolute;
+                    right: -5%;                                  
+                }
+                .top{
+                    width: 50%;
+                    img{
+                        transform: rotate(5deg);
+                    }  
+                }
+                .card4{
+                    position: absolute;
+                    right: 0px;
+                    bottom: 200px;
+                    z-index: 10;
+                    width: 90%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 850px) {
+    .LandingPageContainer{
+        padding: 50px 0px 0px;
+    }
+}
+
+// css for why us container
+.WhyUsContainer{
+    background: url('../../Images//patternBg.svg');
+    width: 100%;
+    height: auto;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    font-family: var(--textFamily);
+    .title{
+        text-align: center;
+        font-size: 50px;
+        font-weight: 900;
+        span{
+            background-color: transparent;
+            background-image: linear-gradient(215deg, #779AFE 28%, #C8ACF9 71%);
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            -webkit-background-clip: text;
+        }
+    }
+    @media screen and (max-width: 450px) {
+        .title{
+            font-size: x-large;
+        }
+    }
+    .text{
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+        color: #6b6b6b;
+        padding: 10px 0px;
+    }
+    @media screen and (max-width: 850px) {
+        .text{
+            width: 80%;
+        }
+    }
+    .content{
+        background: transparent;
+        width: 100%;
+        padding: 30px 10px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        transition: 0.4s all ease;
+        margin: 30px 0px;
+        .image{
+            width: 70px;
+            height: 70px!important;
+            background: rgba(0, 217, 255, 0.307);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .icon{
+                font-size: 40px;
+            }
+            margin-bottom: 10px;
+        }
+        .image2{
+            background: rgba(204, 0, 255, 0.233);
+        }
+        .image3{
+            background: rgba(0, 255, 0, 0.123);
+        }
+        .image4{
+            background: rgba(255, 51, 0, 0.199);
+        }
+        .contentTitle{
+            font-weight: 700;
+            font-size: 18px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        p{
+            font-size: 14px;
+            text-align: center;
+        }
+    }
+    
+    .content:hover{
+        background: var(--backgroundColor2);
+        .image{
+            background: #fff!important;
+        }
+        .contentTitle{
+            color: #fff;
+        }
+        p{
+            color: #fff;
+        }
+    }
+}
+
+.supportPayment{
+    background: var(--backgroundColor);
+    padding: 60px 0px;
+    font-family: var(--textFamily);
+    color: #fff;
+    .Wrapper{
+        display: flex;
+        .leftSide{
+            flex: 1;
+            .pageTitle{
+                font-size: 45px;
+            }
+            .text{
+                font-size: 14px;
+                padding: 20px 0px;
+            }
+            .content{
+                padding-right: 100px;
+                .image{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    .icon{
+                        font-size: 50px;
+                        color: #fff;
+                    }
+                }
+            }
+            @media screen and (max-width: 450px) {
+                .content{
+                    padding-right: 10px;
+                }
+            }
+        }
+        .rightSide{
+            flex: 1;
+            background-color: linear-gradient(105deg, #8B4DFB 29%, #0AB2FF 78%);
+            background-image: url('../../Images/shape.png');
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .image{
+               width: 50%;
+               margin: 0 auto;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .Wrapper{
+            flex-direction: column-reverse;
+            gap: 20px;
+        }
+    }
+}
+
+// landingpage last section is here
+.LandingLastSection{
+    background: url('../../Images/patternBg.svg');
+    background-position: center;
+    background-size: cover;
+    padding: 50px 0px;
+    .top{
+        width: 100%;
+        position: relative;
+        .pageTitle{
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        @media screen and (max-width: 850px) {
+            .pageTitle{
+                width: 90%;
+            }
+        }
+        .image{
+            position: absolute;
+            top: -30%;
+            left: 0%;
+            img{
+                width: 60%;
+                z-index: 10;
+                transform: rotate(-10deg);
+            }
+        }
+    }
+    .contentWrapper{
+        display: flex;
+        padding: 20px 0px;
+        font-family: var(--textFamily);
+        .first{
+            flex: 1;
+            .content{
+                display: flex;
+                align-items: flex-start;
+                gap: 10px;
+                padding-bottom: 5px;
+                .icon{
+                    font-size: 25px;
+                    color: #b991ff;
+                }
+                p{
+                    font-size: 14px;
+                    color: #666666;
+                }
+            }
+        }
+        .second{
+            flex: 1;
+            p{
+                font-size: 14px;
+                    color: #666666;
+                    padding: 20px 0px;
+            }
+        }
+        .title{
+            font-size: 19px;
+            font-weight: 900;
+
+        }
+    }
+    @media screen and (max-width: 850px){
+        .contentWrapper{
+            flex-direction: column;
+            gap: 15px;
+        }
+    }
+}
