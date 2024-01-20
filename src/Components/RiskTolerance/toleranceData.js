@@ -49,12 +49,14 @@ function ToleranceData({ indexNumber }) {
                                         <span style={{ width: `${filteredData.emergingStock}%` }} >{filteredData.emergingStock}%</span>
                                     </div>
                                 </div>
-                                <div className='riskcontent'>
-                                    <div className='Name'>Nigeria Bond</div>
-                                    <div className='progress-line' data-percent="100%" >
-                                        <span style={{ width: `${filteredData.nigeriaBond}%` }} >{filteredData.nigerianBond}%</span>
+                                {filteredData.nigeriaBond === 0 ? <> </> :
+                                    <div className='riskcontent'>
+                                        <div className='Name'>Nigeria Bond</div>
+                                        <div className='progress-line' data-percent="100%" >
+                                            <span style={{ width: `${filteredData.nigeriaBond}%` }} >{filteredData.nigeriaBond}%</span>
+                                        </div>
                                     </div>
-                                </div>
+                                }
                                 {filteredData.foreignBond === 0 ? <> </> :
                                     <div className='riskcontent'>
                                         <div className='Name'>Foreign Bond</div>

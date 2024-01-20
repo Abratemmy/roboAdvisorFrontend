@@ -20,9 +20,9 @@ function Footer() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </div>
                             <div className='socialUrl'>
-                                <span><a href="/https://facebook.com"><FaGithub className='icon' /></a> </span>
+                                <span><a href="https://github.com/Abratemmy/roboAdvisorFrontend"><FaGithub className='icon' /></a> </span>
                                 <span><a href="https://www.linkedin.com/in/temitope-adeniyi-olasode-863a30141/"><FaLinkedinIn className='icon' /></a> </span>
-                                <span><a href="/https://facebook.com"><FaFacebookF className='icon' /></a> </span>
+                                <span><a href="https://facebook.com"><FaFacebookF className='icon' /></a> </span>
                             </div>
                         </div>
                     </div>
