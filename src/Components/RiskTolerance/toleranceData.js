@@ -15,7 +15,7 @@ function ToleranceData({ indexNumber }) {
         <div className='toleranceDataWrapper'>
             {!riskData.posts.length ?
                 <div className='NoPostErrorImg'>
-                    <p>This might takes times as the backend is uploaded on a free hosting platform</p>
+                    <p>This might takes times as the backend is uploaded on a free hosting platform. Please refresh the browser if possible</p>
                     <div className='NoPost'>
                         <img src={spinner} alt='' />
                         <h3>Loading...</h3>

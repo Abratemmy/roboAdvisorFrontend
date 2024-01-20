@@ -15,7 +15,7 @@ function Footer() {
                 <div className='row'>
                     <div className='col-lg-3 col-md-6 col-sm-12'>
                         <div className='contentWrapperFirst'>
-                            <div className='pageLogo'>Trus<span>tF</span>und</div>
+                            <div className='pageLogo'>Robo<span>Advisor</span></div>
                             <div className='text'>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                             </div>

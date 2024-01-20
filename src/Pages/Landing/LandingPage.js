@@ -72,8 +72,8 @@ function LandingPage() {
             {/* another section starts here */}
             <div className='WhyUsContainer'>
                 <div className='container'>
-                    <div className='title'>Why <span>TrustFund?</span></div>
-                    <div className='text'>Trustfund provides a secure platform for investors to grow their money with peace of mind through safe, high-yield investments.</div>
+                    <div className='title'>Why <span>RoboAdvisor?</span></div>
+                    <div className='text'>Robo Advisor provides a secure platform for investors to grow their money with peace of mind through safe, high-yield investments.</div>
                     <div className='row'>
                         <div className='col-lg-3 col-md-6 col-sm-12'>
                             <div className='content'>

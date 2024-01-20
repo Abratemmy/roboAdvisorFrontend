@@ -27,7 +27,7 @@ function Navbar() {
                 <div class="container">
                     <div className='navbar-container'>
                         <NavLink to="/" exact style={{ textDecoration: 'none' }}>
-                            <div className='pageLogo'>Trus<span>tF</span>und</div>
+                            <div className='pageLogo'>Robo<span>Advisor</span></div>
                         </NavLink>
                         <ul className={click ? "nav-menu active" : "nav-menu"}>
                             <li className="nav-item">
