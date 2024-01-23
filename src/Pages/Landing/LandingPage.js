@@ -35,7 +35,7 @@ function LandingPage() {
 
                             <div className='last'>
                                 <div className=''>
-                                    <Link to='riskTolerance' className='pageButton' activeClass="active" spy="true" smooth={true} offset={-50} duration={300}>Get Started</Link>
+                                    <Link to='riskTolerance' className='pageButton' activeClassName="active" smooth={true} offset={-50} duration={300}>Get Started</Link>
                                 </div>
                                 <div className='image'>
                                     <img src={newclient} alt="" />
@@ -142,7 +142,7 @@ function LandingPage() {
                             </div>
                         </div>
                         <div className='rightSide'>
-                            <ScrollAnimation animateIn="pulse" offset="150" className='image'>
+                            <ScrollAnimation animateIn="pulse" className='image'>
                                 <img src={payment} alt="" />
                             </ScrollAnimation>
                         </div>

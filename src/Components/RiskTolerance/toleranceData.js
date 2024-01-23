@@ -24,7 +24,7 @@ function ToleranceData({ indexNumber }) {
                 </div> : <div>
                     {riskData.posts.filter(data => data.riskScore === indexNumber).map((filteredData, index) => {
                         return (
-                            <div >
+                            <div key={index} >
                                 <div className='riskcontent'>
                                     <div className='Name'>Nigeria Stock</div>
                                     <div className='progress-line' data-percent="100%" >

@@ -24,7 +24,7 @@ function Navbar() {
     return (
         <div>
             <div className={scrolled ? 'navbar scrolled' : 'navbar'}>
-                <div class="container">
+                <div className="container">
                     <div className='navbar-container'>
                         <NavLink to="/" exact style={{ textDecoration: 'none' }}>
                             <div className='pageLogo'>Robo<span>Advisor</span></div>
@@ -59,7 +59,7 @@ function Navbar() {
                                 }
                             </div>
                             <div className='navButton'>
-                                <Link to='riskTolerance' activeClass="active" spy="true" smooth={true} offset={-50} duration={300} className="pageButton">Risk Tolerance</Link>
+                                <Link to='riskTolerance' activeClassName="active" smooth={true} offset={-50} duration={300} className="pageButton">Risk Tolerance</Link>
                             </div>
                         </div>
                     </div>
