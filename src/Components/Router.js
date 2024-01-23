@@ -7,8 +7,8 @@ const Router = () => {
 
     return (
         <Routes>
-            <Route exact path='/' caseSensitive={false} element={<LandingPage />} />
-            <Route exact path='/riskform' element={<RiskForm />} />
+            <Route exact path='/roboAdvisorFrontend' caseSensitive={false} element={<LandingPage />} />
+            <Route exact path='/roboAdvisorFrontend/riskform' element={<RiskForm />} />
 
         </Routes>
     )
