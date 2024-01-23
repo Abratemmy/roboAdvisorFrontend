@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2913cc31.css",
+    "main.js": "/static/js/main.a9eb98f3.js",
+    "static/js/787.47d39376.chunk.js": "/static/js/787.47d39376.chunk.js",
+    "static/media/card4.png": "/static/media/card4.4f49afd7353e095b99f1.png",
+    "static/media/transac.jpg": "/static/media/transac.f1d39779f18a0b32304d.jpg",
+    "static/media/card3.png": "/static/media/card3.d5cf5be7faaa354c638a.png",
+    "static/media/card2.png": "/static/media/card2.5c9866cb025b7290e95f.png",
+    "static/media/payment.png": "/static/media/payment.353f40c2ad8b038cace3.png",
+    "static/media/card1.png": "/static/media/card1.d30dc7db7bdab0aff111.png",
+    "static/media/bgElement.png": "/static/media/bgElement.0ce0c7ead8b6b794bcad.png",
+    "static/media/phone1.png": "/static/media/phone1.cab6c4f8b9442a7d03d9.png",
+    "static/media/shape.png": "/static/media/shape.4de40904b936e7674757.png",
+    "static/media/redux.cjs": "/static/media/redux.7edfc461ab353f1712ab.cjs",
+    "static/media/newclients.png": "/static/media/newclients.09ea196dc780dbf9a164.png",
+    "index.html": "/index.html",
+    "static/media/spinner.svg": "/static/media/spinner.dbd419f678fb01f356be067b72ce65ae.svg",
+    "static/media/patternBg.svg": "/static/media/patternBg.795f207001014d8f804f.svg",
+    "main.2913cc31.css.map": "/static/css/main.2913cc31.css.map",
+    "main.a9eb98f3.js.map": "/static/js/main.a9eb98f3.js.map",
+    "787.47d39376.chunk.js.map": "/static/js/787.47d39376.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2913cc31.css",
+    "static/js/main.a9eb98f3.js"
+  ]
+}
